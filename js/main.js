@@ -1,4 +1,4 @@
-/*click mapeado, escutador do evento
+/*click mapeado, escutador do evento*/
 const robotron = document.querySelector("#robotron")
 
 robotron.addEventListener("click", dizOi)
