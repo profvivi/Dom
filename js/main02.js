@@ -1,8 +1,8 @@
 /*click mapeado, escutador do evento*/
 const robotron = document.querySelector("#robotron")
 
-robotron.addEventListener("click", () =>{
-    console.log("Cliquei no robô.")
+robotron.addEventListener("click", (evento) =>{
+    console.log("evento")
 })
 
 function dizOi(nome) {
